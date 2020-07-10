@@ -6,12 +6,22 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sDrzewo</sprite>
+    <sprite>sprites\sEnvironent</sprite>
+    <sprite>sprites\sTree</sprite>
+    <sprite>sprites\sTreeBurning</sprite>
+    <sprite>sprites\sPlayer</sprite>
+    <sprite>sprites\sGenerator</sprite>
+    <sprite>sprites\sBandit</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\oDrzewo</object>
+    <object>objects\oEnvironment</object>
+    <object>objects\object1</object>
+    <object>objects\oTree</object>
+    <object>objects\oGenerator</object>
+    <object>objects\escapeBoy</object>
+    <object>objects\oBandit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLas</room>
