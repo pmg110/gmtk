@@ -52,6 +52,9 @@
 if(timeToWin &lt; 0){
      oOverlord.win = true oOverlord.gameStarted = false
  }
+ if(instance_number(oTree)&lt;5){
+     oOverlord.loose = true oOverlord.gameStarted = false
+ }
 </string>
           </argument>
         </arguments>

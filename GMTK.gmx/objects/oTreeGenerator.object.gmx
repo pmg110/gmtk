@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>toSpawnTree = 15
 while(toSpawnTree &gt; 0){
-    randomX = random(800)+400;
-    randomY = random(600)+200;
+    randomX = random(800)+200;
+    randomY = random(600)+300;
     if(distance_to_object(
     instance_nearest(randomX,randomY,oTree))&gt; 60 
     //&amp;&amp; abs(instance_nearest(randomX,randomY,oTree).y - randomY) &gt; 200

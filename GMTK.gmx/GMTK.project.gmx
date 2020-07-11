@@ -24,6 +24,8 @@
     <sprite>sprites\sUiFiremanWater1</sprite>
     <sprite>sprites\sWinLvl1</sprite>
     <sprite>sprites\sUiFireman1</sprite>
+    <sprite>sprites\sBurnedTree</sprite>
+    <sprite>sprites\sKeep5TreesAlive</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -33,7 +35,7 @@
     <objects name="control">
       <object>objects\oOverlord</object>
       <object>objects\escapeBoy</object>
-      <object>objects\oRandomFire</object>
+      <object>objects\oRandomFireLvl1</object>
       <object>objects\oStart</object>
       <object>objects\lvl1Boy</object>
       <object>objects\oTreeGenerator</object>
@@ -58,6 +60,9 @@
     <object>objects\oFire</object>
     <object>objects\uiFireman1</object>
     <object>objects\oUiFiremanWater1</object>
+    <object>objects\oSpark</object>
+    <object>objects\oBurnedTree</object>
+    <object>objects\oKeep5TreesAlive</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>

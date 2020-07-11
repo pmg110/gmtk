@@ -64,7 +64,7 @@ if(burning){
 }else{
     yscale = 1;
 }
-if hp = 0 instance_destroy()
+if hp = 0 instance_change(1,oBurnedTree);
 
 
 
