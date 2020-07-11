@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\sMouse</sprite>
     <sprite>sprites\sEnvironent</sprite>
     <sprite>sprites\sTree</sprite>
     <sprite>sprites\sTreeBurning</sprite>
@@ -15,33 +16,49 @@
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sWater</sprite>
     <sprite>sprites\sFire</sprite>
-    <sprite>sprites\splajer1</sprite>
-    <sprite>sprites\splaja2</sprite>
-    <sprite>sprites\ssplaja1tyl</sprite>
-    <sprite>sprites\ssplaja2tyl</sprite>
-    <sprite>sprites\ssplaja3</sprite>
+    <sprite>sprites\sPlayer1</sprite>
+    <sprite>sprites\sPlayer2</sprite>
+    <sprite>sprites\sPlayer3</sprite>
     <sprite>sprites\ssplaja3tyl</sprite>
+    <sprite>sprites\sStart</sprite>
+    <sprite>sprites\sWinLvl1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
+    <objects name="control">
+      <object>objects\oOverlord</object>
+      <object>objects\escapeBoy</object>
+      <object>objects\oRandomFire</object>
+      <object>objects\oStart</object>
+      <object>objects\lvl1Boy</object>
+      <object>objects\oTreeGenerator</object>
+      <object>objects\oMenuStart</object>
+      <object>objects\oWinLvl1</object>
+    </objects>
     <object>objects\oEnvironment</object>
+    <object>objects\oMouse</object>
     <object>objects\oObject</object>
     <object>objects\oTree</object>
-    <object>objects\oGenerator</object>
-    <object>objects\escapeBoy</object>
     <object>objects\oBandit</object>
     <object>objects\oFireman</object>
+    <object>objects\oFireman2</object>
+    <object>objects\oFireman3</object>
+    <object>objects\oFiireman4</object>
+    <object>objects\oFireman5</object>
+    <object>objects\oFireman6</object>
     <object>objects\oWall</object>
+    <object>objects\object13</object>
     <object>objects\oBlank</object>
     <object>objects\oWater</object>
-    <object>objects\oRandomFire</object>
     <object>objects\oFire</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rLas</room>
+    <room>rooms\menu</room>
+    <room>rooms\lvl1</room>
+    <room>rooms\lvl5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

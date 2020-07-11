@@ -25,14 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>burning = true;
-burningScale = 0
-yScale = 0
-xScale = 1
-randomNumber=random(64)
+            <string>burning = false;
+yScale = 1;
+xScale = 1;
+randomNumber=random(64);
 treeAngle = 0;
-image_alpha = 0.9
-
+image_alpha = 0.9;
+hp = 800;
 </string>
           </argument>
         </arguments>
@@ -55,12 +54,20 @@ image_alpha = 0.9
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(burning){
-    sprite_index = sTreeBurning;
+            <string>if(oOverlord.gameStarted){
+if(distance_to_object(instance_nearest(x,y,oFire)) &lt; 20 ) burning = true
+else burning = false
+
+if(burning){
     yScale = 0.8 + abs(sin((1 + current_time * 0.002 + randomNumber))/3)
+    hp--
 }else{
     yscale = 1;
-    sprite_index = sTree
+}
+if hp = 0 instance_destroy()
+
+
+
 }
 </string>
           </argument>
@@ -84,15 +91,14 @@ image_alpha = 0.9
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(burning){
-draw_sprite_ext(sTree,0,x,y,xScale,yScale,treeAngle,c_white,1)
+            <string>if(!burning){
+draw_sprite_ext(sTree,0,x,y,xScale,yScale,0,make_colour_rgb(255,55 + hp/4,55 + hp/4),1)
+}
+else{
+draw_sprite_ext(sTree,1,x,y,xScale,yScale,0,make_colour_rgb(255,55 + hp/4,55 + hp/4),1)
 }
 
-if(!burning){
-draw_sprite_ext(sTree,0,x,y,xScale,yScale,treeAngle,c_white,1)
-}
-
-
+draw_text(x,y,hp);
 </string>
           </argument>
         </arguments>

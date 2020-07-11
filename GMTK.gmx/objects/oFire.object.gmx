@@ -25,19 +25,29 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(place_meeting(x,y,oTree)){
-    if(random(5000)%120=0){
+            <string>if(oOverlord.gameStarted){
+if(place_meeting(x,y,oTree)){
+    if(random(5000)%2=0){
         with(instance_nearest(x,y,oTree)){
             burning = true;
         }
     }
-    
 }
 
-if(random(5000)%120=0){
+if(random(5000)%120=0 or place_meeting(x,y,oWater)){
     instance_destroy();
 }
 
+if(random(5000)%40=0){
+    instance_create(x,y,oSpark)
+}
+
+
+
+
+
+
+}
 </string>
           </argument>
         </arguments>
