@@ -15,6 +15,12 @@
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sWater</sprite>
     <sprite>sprites\sFire</sprite>
+    <sprite>sprites\splajer1</sprite>
+    <sprite>sprites\splaja2</sprite>
+    <sprite>sprites\ssplaja1tyl</sprite>
+    <sprite>sprites\ssplaja2tyl</sprite>
+    <sprite>sprites\ssplaja3</sprite>
+    <sprite>sprites\ssplaja3tyl</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
