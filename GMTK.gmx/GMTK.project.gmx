@@ -21,7 +21,9 @@
     <sprite>sprites\sPlayer3</sprite>
     <sprite>sprites\ssplaja3tyl</sprite>
     <sprite>sprites\sStart</sprite>
+    <sprite>sprites\sUiFiremanWater1</sprite>
     <sprite>sprites\sWinLvl1</sprite>
+    <sprite>sprites\sUiFireman1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -54,6 +56,8 @@
     <object>objects\oBlank</object>
     <object>objects\oWater</object>
     <object>objects\oFire</object>
+    <object>objects\uiFireman1</object>
+    <object>objects\oUiFiremanWater1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>
