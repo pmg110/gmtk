@@ -12,16 +12,19 @@
     <sprite>sprites\sPlayer</sprite>
     <sprite>sprites\sGenerator</sprite>
     <sprite>sprites\sBandit</sprite>
+    <sprite>sprites\sWall</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\oEnvironment</object>
-    <object>objects\object1</object>
+    <object>objects\oObject</object>
     <object>objects\oTree</object>
     <object>objects\oGenerator</object>
     <object>objects\escapeBoy</object>
     <object>objects\oBandit</object>
+    <object>objects\oFireman</object>
+    <object>objects\oWall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLas</room>
