@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>rotationSpeed = 1.5;
+            <string>rotationSpeed = 1.2;
 rotation = 0;
-movementSpeed = 6;
+movementSpeed = 1;
 move_bounce_solid(true)
 playerAngle = 0
 </string>
@@ -59,9 +59,20 @@ tmp = movementSpeed+1
 if(keyboard_check(ord("A"))){
     while(!place_meeting(x,y,oEnvironment) &amp;&amp; tmp&gt;0){
 
-        move_contact_solid(direction,5);
+        move_contact_solid(direction,movementSpeed);
         tmp--
     }
+    // strzelanie
+    if(current_time%4=0){
+        with (instance_create(x,y,oBlank)){
+        direction = (instance_nearest(x,y,oFireman).direction);
+        motion_set(direction,5);
+        TTL = random(40)+60;
+        instance_change(oWater,1);
+    }}
+    
+    
+    
 }else{
     motion_set(direction,0)
 

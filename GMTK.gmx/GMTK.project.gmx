@@ -13,8 +13,12 @@
     <sprite>sprites\sGenerator</sprite>
     <sprite>sprites\sBandit</sprite>
     <sprite>sprites\sWall</sprite>
+    <sprite>sprites\sWater</sprite>
+    <sprite>sprites\sFire</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\oEnvironment</object>
@@ -25,6 +29,10 @@
     <object>objects\oBandit</object>
     <object>objects\oFireman</object>
     <object>objects\oWall</object>
+    <object>objects\oBlank</object>
+    <object>objects\oWater</object>
+    <object>objects\oRandomFire</object>
+    <object>objects\oFire</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLas</room>

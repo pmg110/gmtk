@@ -31,6 +31,7 @@ yScale = 0
 xScale = 1
 randomNumber=random(64)
 treeAngle = 0;
+image_alpha = 0.9
 
 </string>
           </argument>
@@ -83,7 +84,15 @@ treeAngle = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite_ext(sTree,0,x,y,xScale,yScale,treeAngle,c_white,1)
+            <string>if(burning){
+draw_sprite_ext(sTree,0,x,y,xScale,yScale,treeAngle,c_white,1)
+}
+
+if(!burning){
+draw_sprite_ext(sTree,0,x,y,xScale,yScale,treeAngle,c_white,1)
+}
+
+
 </string>
           </argument>
         </arguments>
