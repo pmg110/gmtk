@@ -25,11 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>rotationSpeed = 1.4;
+            <string>random_set_seed(current_time)
+rotationSpeed = 1.4;
 rotation = random(100);
 movementSpeed = 1;
 move_bounce_solid(true)
-playerAngle = 0
+playerAngle = random(100);
 </string>
           </argument>
         </arguments>

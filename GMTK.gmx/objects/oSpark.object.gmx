@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = random(3) - 1
+            <string>random_set_seed(current_time)
+hspeed = random(3) - 1
 vspeed = -random(10)
 TTL = 40
 </string>

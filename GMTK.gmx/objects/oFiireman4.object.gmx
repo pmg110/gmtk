@@ -25,13 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.difficulty != 3) instance_destroy()
+            <string>random_set_seed(current_time)
+if(global.difficulty != 3) instance_destroy()
 playerAngle = 0
 rotationSpeed = 1.4;
 rotation = 0;
 movementSpeed = 1;
 move_bounce_solid(true)
-playerAngle = 0
+playerAngle = random(200);
 </string>
           </argument>
         </arguments>

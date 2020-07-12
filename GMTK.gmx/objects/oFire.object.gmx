@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(oOverlord.gameStarted){
+            <string>
+if(oOverlord.gameStarted){
 if(place_meeting(x,y,oWater)){
     instance_destroy();
 }
