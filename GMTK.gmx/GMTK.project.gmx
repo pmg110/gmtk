@@ -7,6 +7,8 @@
   <sounds name="sound">
     <sound>sound\GameSong</sound>
     <sound>sound\MenuSong</sound>
+    <sound>sound\gasnica</sound>
+    <sound>sound\ogien</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sMouse</sprite>
