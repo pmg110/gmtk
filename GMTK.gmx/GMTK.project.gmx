@@ -14,6 +14,7 @@
     <sprite>sprites\sGenerator</sprite>
     <sprite>sprites\sBandit</sprite>
     <sprite>sprites\sWall</sprite>
+    <sprite>sprites\SWallHori</sprite>
     <sprite>sprites\sWater</sprite>
     <sprite>sprites\sFire</sprite>
     <sprite>sprites\sPlayer1</sprite>
@@ -21,9 +22,17 @@
     <sprite>sprites\sPlayer3</sprite>
     <sprite>sprites\ssplaja3tyl</sprite>
     <sprite>sprites\sStart</sprite>
+    <sprite>sprites\sDif</sprite>
+    <sprite>sprites\sBinds</sprite>
+    <sprite>sprites\sExit</sprite>
     <sprite>sprites\sUiFiremanWater1</sprite>
+    <sprite>sprites\sUiFiremanWater2</sprite>
+    <sprite>sprites\SUiFiremanTree3</sprite>
     <sprite>sprites\sWinLvl1</sprite>
     <sprite>sprites\sUiFireman1</sprite>
+    <sprite>sprites\SUiFireman2</sprite>
+    <sprite>sprites\SUiFireman3</sprite>
+    <sprite>sprites\SFireman2</sprite>
     <sprite>sprites\sBurnedTree</sprite>
     <sprite>sprites\sKeep5TreesAlive</sprite>
   </sprites>
@@ -40,6 +49,9 @@
       <object>objects\lvl1Boy</object>
       <object>objects\oTreeGenerator</object>
       <object>objects\oMenuStart</object>
+      <object>objects\oMenuBinds</object>
+      <object>objects\oMenuDif</object>
+      <object>objects\oMenuExit</object>
       <object>objects\oWinLvl1</object>
     </objects>
     <object>objects\oEnvironment</object>
@@ -48,18 +60,23 @@
     <object>objects\oTree</object>
     <object>objects\oBandit</object>
     <object>objects\oFireman</object>
+    <object>objects\OFiremanMenu</object>
     <object>objects\oFireman2</object>
     <object>objects\oFireman3</object>
     <object>objects\oFiireman4</object>
     <object>objects\oFireman5</object>
     <object>objects\oFireman6</object>
     <object>objects\oWall</object>
-    <object>objects\object13</object>
+    <object>objects\oWallHori</object>
     <object>objects\oBlank</object>
     <object>objects\oWater</object>
     <object>objects\oFire</object>
     <object>objects\uiFireman1</object>
+    <object>objects\uiFireman2</object>
+    <object>objects\uiFireman3</object>
     <object>objects\oUiFiremanWater1</object>
+    <object>objects\oUiFiremanWater2</object>
+    <object>objects\oUiFireamnTree3</object>
     <object>objects\oSpark</object>
     <object>objects\oBurnedTree</object>
     <object>objects\oKeep5TreesAlive</object>
