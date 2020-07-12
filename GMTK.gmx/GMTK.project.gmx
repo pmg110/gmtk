@@ -25,6 +25,7 @@
     <sprite>sprites\sPlayer3</sprite>
     <sprite>sprites\ssplaja3tyl</sprite>
     <sprite>sprites\sStart</sprite>
+    <sprite>sprites\sMenu</sprite>
     <sprite>sprites\sDif</sprite>
     <sprite>sprites\sBinds</sprite>
     <sprite>sprites\sExit</sprite>
@@ -33,8 +34,11 @@
     <sprite>sprites\SUiFiremanTree3</sprite>
     <sprite>sprites\sWinLvl1</sprite>
     <sprite>sprites\sUiFireman1</sprite>
+    <sprite>sprites\SUiFireman1Bind</sprite>
     <sprite>sprites\SUiFireman2</sprite>
+    <sprite>sprites\SUiFireman2Bind</sprite>
     <sprite>sprites\SUiFireman3</sprite>
+    <sprite>sprites\SUiFireman3Bind</sprite>
     <sprite>sprites\SFireman2</sprite>
     <sprite>sprites\sBurnedTree</sprite>
     <sprite>sprites\sKeep5TreesAlive</sprite>
@@ -61,6 +65,7 @@
       <object>objects\oMenuBinds</object>
       <object>objects\oMenuDif</object>
       <object>objects\oMenuExit</object>
+      <object>objects\oMenuMenu</object>
       <object>objects\oWinLvl1</object>
     </objects>
     <object>objects\oEnvironment</object>
@@ -81,8 +86,11 @@
     <object>objects\oWater</object>
     <object>objects\oFire</object>
     <object>objects\uiFireman1</object>
+    <object>objects\uiFireman1bind</object>
     <object>objects\uiFireman2</object>
+    <object>objects\uiFireman2bind</object>
     <object>objects\uiFireman3</object>
+    <object>objects\uiFireman3bind</object>
     <object>objects\oUiFiremanWater1</object>
     <object>objects\oUiFiremanWater2</object>
     <object>objects\oUiFireamnTree3</object>
@@ -99,6 +107,7 @@
   <rooms name="rooms">
     <room>rooms\menu</room>
     <room>rooms\difficultyRoom</room>
+    <room>rooms\Binds</room>
     <room>rooms\lvl1</room>
     <room>rooms\lvl5</room>
   </rooms>

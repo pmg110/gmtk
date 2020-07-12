@@ -99,13 +99,12 @@
     <instance objName="oWall" x="128" y="256" name="inst_F0754FC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oRandomFireLvl1" x="32" y="0" name="inst_898E29B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oFireman2" x="480" y="544" name="inst_7F7DC365" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oStart" x="608" y="1056" name="inst_319D5704" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oOverlord" x="96" y="0" name="inst_1751A2A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMouse" x="384" y="448" name="inst_37EAAD29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTree" x="448" y="512" name="inst_413F068D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWinLvl1" x="544" y="640" name="inst_599B086F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lvl1Boy" x="64" y="64" name="inst_2DBCF063" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oKeep5TreesAlive" x="1504" y="896" name="inst_13D1FB11" locked="0" code="" scaleX="2.80303025245667" scaleY="3.05999994277954" colour="4294967295" rotation="0"/>
+    <instance objName="oKeep5TreesAlive" x="1728" y="960" name="inst_13D1FB11" locked="0" code="" scaleX="2.80303025245667" scaleY="3.05999994277954" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="64" y="320" name="inst_95A94077" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="64" y="384" name="inst_BDDA96D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="64" y="416" name="inst_E0F348A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -144,12 +143,13 @@
     <instance objName="oWallHori" x="1056" y="864" name="inst_E99FFDBE" locked="0" code="" scaleX="-1.03125" scaleY="0.9375" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="1056" y="864" name="inst_9340823E" locked="0" code="" scaleX="-1.03125" scaleY="0.9375" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="1056" y="992" name="inst_CAF61665" locked="0" code="" scaleX="-1.03125" scaleY="0.9375" colour="4294967295" rotation="0"/>
-    <instance objName="uiFireman1" x="1440" y="96" name="inst_0C0BEF2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oUiFiremanWater1" x="1591" y="166" name="inst_675B04DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="uiFireman1" x="1184" y="0" name="inst_0C0BEF2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oUiFiremanWater1" x="1523" y="140" name="inst_675B04DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="64" y="288" name="inst_7686E870" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="1056" y="288" name="inst_5AA633F2" locked="0" code="" scaleX="-1.03125" scaleY="0.9375" colour="4294967295" rotation="0"/>
-    <instance objName="uiFireman2" x="1696" y="96" name="inst_9B614F8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oUiFiremanWater2" x="1845" y="162" name="inst_7D0BF981" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oUiFiremanWater2" x="1519" y="583" name="inst_9538D179" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="uiFireman2" x="1184" y="448" name="inst_BB823801" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oStart" x="544" y="800" name="inst_EE224422" locked="0" code="" scaleX="2.09999990463257" scaleY="2.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
