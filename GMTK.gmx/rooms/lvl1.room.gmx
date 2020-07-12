@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="oTreeGenerator" x="64" y="0" name="inst_54771BF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="escapeBoy" x="0" y="0" name="inst_25FF60A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBandit" x="928" y="192" name="inst_372A7AFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oFireman" x="832" y="608" name="inst_CED3492F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="128" y="992" name="inst_0C71F6CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -98,13 +97,11 @@
     <instance objName="oWall" x="160" y="256" name="inst_FC9544F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="128" y="256" name="inst_F0754FC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oRandomFireLvl1" x="32" y="0" name="inst_898E29B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oFireman2" x="480" y="544" name="inst_7F7DC365" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oOverlord" x="96" y="0" name="inst_1751A2A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMouse" x="384" y="448" name="inst_37EAAD29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTree" x="448" y="512" name="inst_413F068D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWinLvl1" x="544" y="640" name="inst_599B086F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lvl1Boy" x="64" y="64" name="inst_2DBCF063" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oKeep5TreesAlive" x="1728" y="960" name="inst_13D1FB11" locked="0" code="" scaleX="2.80303025245667" scaleY="3.05999994277954" colour="4294967295" rotation="0"/>
+    <instance objName="oKeep5TreesAlive" x="1536" y="800" name="inst_13D1FB11" locked="0" code="" scaleX="2.80303025245667" scaleY="3.05999994277954" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="64" y="320" name="inst_95A94077" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="64" y="384" name="inst_BDDA96D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="64" y="416" name="inst_E0F348A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -144,16 +141,21 @@
     <instance objName="oWallHori" x="1056" y="864" name="inst_9340823E" locked="0" code="" scaleX="-1.03125" scaleY="0.9375" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="1056" y="992" name="inst_CAF61665" locked="0" code="" scaleX="-1.03125" scaleY="0.9375" colour="4294967295" rotation="0"/>
     <instance objName="uiFireman1" x="1184" y="64" name="inst_0C0BEF2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oUiFiremanWater1" x="1278" y="32" name="inst_675B04DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oUiFiremanWater1" x="1328" y="166" name="inst_675B04DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="64" y="288" name="inst_7686E870" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="1056" y="288" name="inst_5AA633F2" locked="0" code="" scaleX="-1.03125" scaleY="0.9375" colour="4294967295" rotation="0"/>
     <instance objName="oStart" x="544" y="800" name="inst_EE224422" locked="0" code="" scaleX="2.09999990463257" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="uiFireman2" x="1504" y="64" name="inst_3A3BC14B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oUiFiremanWater2" x="1590" y="37" name="inst_93E4EA7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oUiFiremanWater2" x="1645" y="163" name="inst_93E4EA7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="uiFireman3" x="1184" y="320" name="inst_609AC4BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oUiFireman4" x="1504" y="320" name="inst_200AE3B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oUiFiremanWater3" x="1283" y="287" name="inst_0E9CA05E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oUiFiremanWater4" x="1597" y="289" name="inst_98604943" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oUiFiremanWater3" x="1336" y="417" name="inst_0E9CA05E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oUiFiremanWater4" x="1649" y="419" name="inst_98604943" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oFiireman4" x="640" y="448" name="inst_EC2565E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oFireman3" x="544" y="576" name="inst_5495DF6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oFireman2" x="640" y="640" name="inst_E3579B1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWinLvl1" x="544" y="640" name="inst_A4E01D9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="escapeBoyLvl1" x="0" y="0" name="inst_1BD6691B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

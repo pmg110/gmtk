@@ -32,7 +32,7 @@ if(place_meeting(x,y,oWater)){
  if place_meeting(x,y,oWall){
  instance_destroy()
  }
-randomN = random(600)
+randomN = random(600 + global.difficulty)
 
 if(randomN &gt; 599){
     instance_create(x,y,oSpark);

@@ -53,8 +53,14 @@ TTL = 40
             <string>TTL--
 vspeed += 0.2;
 if (TTL=0 or place_meeting(x,y,oWater)) {
-instance_create(x,y,oFire);
+if(instance_number(oFire)&lt;1000){
+    instance_create(x,y,oFire);
+}
 instance_destroy();
+}
+
+if (TTL=0 or place_meeting(x,y,oWall)){
+    instance_destroy()
 }
 </string>
           </argument>

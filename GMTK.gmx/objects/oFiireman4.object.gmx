@@ -8,6 +8,35 @@
   <parentName>oFireman</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(global.difficulty != 3) instance_destroy()
+playerAngle = 0
+rotationSpeed = 1.4;
+rotation = 0;
+movementSpeed = 1;
+move_bounce_solid(true)
+playerAngle = 0
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -57,25 +86,30 @@ playerAngle += rotationSpeed;
 direction += rotationSpeed;
 tmp = movementSpeed+1
 
-if(keyboard_check(ord("Z"))){
+if(keyboard_check(ord("F"))){
     while(!place_meeting(x,y,oEnvironment) &amp;&amp; tmp&gt;0){
 
         move_contact_solid(direction,movementSpeed);
         tmp--
     }
     // strzelanie
-    if(current_time%4=0){
+    if(current_time%8=0 &amp;&amp; oUiFiremanWater4.water&gt;0){
         with (instance_create(x,y,oBlank)){
-        direction = (instance_nearest(x,y,oFireman).direction);
+        direction = (instance_nearest(x,y,oFiireman4).direction);
         motion_set(direction,5);
         TTL = random(40)+60;
         instance_change(oWater,1);
-    }}
+    }
+    }
+    if(oUiFiremanWater4.water&gt;0) oUiFiremanWater4.water--;
     
     
     
 }else{
     motion_set(direction,0)
+    if(oUiFiremanWater4.water&lt;100){
+    oUiFiremanWater4.water+=1
+    }
 
 }}
 </string>

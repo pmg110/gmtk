@@ -50,6 +50,7 @@ win = false
           <argument>
             <kind>1</kind>
             <string>global.difficulty = 2;
+global.treeHp = 15 * 800
 </string>
           </argument>
         </arguments>

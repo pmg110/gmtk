@@ -85,6 +85,10 @@ draw_text(x + 200,y,timeToWin)
 draw_sprite_ext(sWinTime,1,x,y,timeToWin/timeTotal,1,0,c_white,1)
 
 }
+if(instance_number(oTree)&lt;5){
+draw_text_transformed(x+ 100, y+ 50, "Your loose", 2, 2, 0);
+
+}
 </string>
           </argument>
         </arguments>

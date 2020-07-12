@@ -10,11 +10,28 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sMouse</sprite>
-    <sprite>sprites\sEnvironent</sprite>
-    <sprite>sprites\sTree</sprite>
-    <sprite>sprites\sTreeBurning</sprite>
+    <sprites name="tree">
+      <sprite>sprites\sTree</sprite>
+      <sprite>sprites\sTreeBurning</sprite>
+      <sprite>sprites\sGenerator</sprite>
+      <sprite>sprites\sBurnedTree</sprite>
+      <sprite>sprites\sEnvironent</sprite>
+    </sprites>
     <sprite>sprites\sPlayer</sprite>
-    <sprite>sprites\sGenerator</sprite>
+    <sprites name="ui">
+      <sprite>sprites\sUiFiremanWater1</sprite>
+      <sprite>sprites\sUiFiremanWater2</sprite>
+      <sprite>sprites\SUiFireman1Bind</sprite>
+      <sprite>sprites\sUiFiremanWater4</sprite>
+      <sprite>sprites\SUiFireman4Bind</sprite>
+      <sprite>sprites\SUiFireman3</sprite>
+      <sprite>sprites\sUiFireman1</sprite>
+      <sprite>sprites\SUiFireman4</sprite>
+      <sprite>sprites\SUiFireman2</sprite>
+      <sprite>sprites\SUiFireman3Bind</sprite>
+      <sprite>sprites\SUiFireman2Bind</sprite>
+      <sprite>sprites\sUiFiremanWater3</sprite>
+    </sprites>
     <sprite>sprites\sBandit</sprite>
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\SWallHori</sprite>
@@ -23,29 +40,18 @@
     <sprite>sprites\sPlayer1</sprite>
     <sprite>sprites\sPlayer2</sprite>
     <sprite>sprites\sPlayer3</sprite>
+    <sprites name="subtitles">
+      <sprite>sprites\sMenu</sprite>
+      <sprite>sprites\sScore</sprite>
+      <sprite>sprites\sGoal</sprite>
+      <sprite>sprites\sDif</sprite>
+      <sprite>sprites\sBinds</sprite>
+      <sprite>sprites\sStart</sprite>
+      <sprite>sprites\sExit</sprite>
+    </sprites>
     <sprite>sprites\sPlayer4</sprite>
-    <sprite>sprites\sStart</sprite>
-    <sprite>sprites\sScore</sprite>
-    <sprite>sprites\sMenu</sprite>
-    <sprite>sprites\sGoal</sprite>
-    <sprite>sprites\sDif</sprite>
-    <sprite>sprites\sBinds</sprite>
-    <sprite>sprites\sExit</sprite>
-    <sprite>sprites\sUiFiremanWater1</sprite>
-    <sprite>sprites\sUiFiremanWater2</sprite>
-    <sprite>sprites\sUiFiremanWater3</sprite>
-    <sprite>sprites\sUiFiremanWater4</sprite>
     <sprite>sprites\sWinLvl1</sprite>
-    <sprite>sprites\sUiFireman1</sprite>
-    <sprite>sprites\SUiFireman1Bind</sprite>
-    <sprite>sprites\SUiFireman2</sprite>
-    <sprite>sprites\SUiFireman2Bind</sprite>
-    <sprite>sprites\SUiFireman3</sprite>
-    <sprite>sprites\SUiFireman4</sprite>
-    <sprite>sprites\SUiFireman3Bind</sprite>
-    <sprite>sprites\SUiFireman4Bind</sprite>
     <sprite>sprites\SFireman2</sprite>
-    <sprite>sprites\sBurnedTree</sprite>
     <sprite>sprites\sKeep5TreesAlive</sprite>
     <sprite>sprites\sEasy</sprite>
     <sprite>sprites\sMedium</sprite>
@@ -54,7 +60,6 @@
     <sprite>sprites\sDifMark</sprite>
     <sprite>sprites\sChooseDif</sprite>
     <sprite>sprites\sWinTime</sprite>
-    <sprite>sprites\sprite48</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -63,6 +68,7 @@
   <objects name="objects">
     <objects name="control">
       <object>objects\oOverlord</object>
+      <object>objects\escapeBoyLvl1</object>
       <object>objects\escapeBoy</object>
       <object>objects\oRandomFireLvl1</object>
       <object>objects\oStart</object>
@@ -80,6 +86,14 @@
     <object>objects\oEnvironment</object>
     <object>objects\oMouse</object>
     <object>objects\oObject</object>
+    <objects name="subtitles">
+      <object>objects\oHard</object>
+      <object>objects\oEasy</object>
+      <object>objects\oMedium</object>
+      <object>objects\oChoose</object>
+      <object>objects\oEndless</object>
+      <object>objects\oGameExit</object>
+    </objects>
     <object>objects\oTree</object>
     <object>objects\oBandit</object>
     <object>objects\oFireman</object>
@@ -111,12 +125,6 @@
     <object>objects\oBurnedTree</object>
     <object>objects\oKeep5TreesAlive</object>
     <object>objects\oDifMark</object>
-    <object>objects\oEasy</object>
-    <object>objects\oMedium</object>
-    <object>objects\oHard</object>
-    <object>objects\oEndless</object>
-    <object>objects\oChoose</object>
-    <object>objects\oGameExit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>

@@ -60,7 +60,8 @@ else burning = false
 
 if(burning){
     yScale = 0.8 + abs(sin((1 + current_time * 0.002 + randomNumber))/3)
-    hp--
+    global.treeHp--;
+    hp--;
 }else{
     yscale = 1;
 }
@@ -98,7 +99,6 @@ else{
 draw_sprite_ext(sTree,1,x,y,xScale,yScale,0,make_colour_rgb(255,55 + hp/4,55 + hp/4),1)
 }
 
-draw_text(x,y,hp);
 </string>
           </argument>
         </arguments>
