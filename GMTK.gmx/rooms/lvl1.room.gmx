@@ -143,13 +143,17 @@
     <instance objName="oWallHori" x="1056" y="864" name="inst_E99FFDBE" locked="0" code="" scaleX="-1.03125" scaleY="0.9375" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="1056" y="864" name="inst_9340823E" locked="0" code="" scaleX="-1.03125" scaleY="0.9375" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="1056" y="992" name="inst_CAF61665" locked="0" code="" scaleX="-1.03125" scaleY="0.9375" colour="4294967295" rotation="0"/>
-    <instance objName="uiFireman1" x="1184" y="0" name="inst_0C0BEF2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oUiFiremanWater1" x="1523" y="140" name="inst_675B04DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="uiFireman1" x="1184" y="64" name="inst_0C0BEF2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oUiFiremanWater1" x="1278" y="32" name="inst_675B04DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="64" y="288" name="inst_7686E870" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWallHori" x="1056" y="288" name="inst_5AA633F2" locked="0" code="" scaleX="-1.03125" scaleY="0.9375" colour="4294967295" rotation="0"/>
-    <instance objName="oUiFiremanWater2" x="1519" y="583" name="inst_9538D179" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="uiFireman2" x="1184" y="448" name="inst_BB823801" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oStart" x="544" y="800" name="inst_EE224422" locked="0" code="" scaleX="2.09999990463257" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="uiFireman2" x="1504" y="64" name="inst_3A3BC14B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oUiFiremanWater2" x="1590" y="37" name="inst_93E4EA7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="uiFireman3" x="1184" y="320" name="inst_609AC4BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oUiFireman4" x="1504" y="320" name="inst_200AE3B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oUiFiremanWater3" x="1283" y="287" name="inst_0E9CA05E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oUiFiremanWater4" x="1597" y="289" name="inst_98604943" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

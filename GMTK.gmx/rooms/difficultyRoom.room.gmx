@@ -54,9 +54,6 @@
     <instance objName="oMouse" x="736" y="544" name="inst_A78BDFD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="escapeBoy" x="0" y="0" name="inst_290CBAF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oEnvironment" x="223" y="1075" name="inst_DA33B6E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oEnvironment" x="805" y="1074" name="inst_3C33FD6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oEnvironment" x="1106" y="1076" name="inst_94352BD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oEnvironment" x="480" y="1088" name="inst_5BC384C1" locked="0" code="" scaleX="1.171875" scaleY="1.2734375" colour="4294967295" rotation="0"/>
     <instance objName="oEnvironment" x="1568" y="1088" name="inst_8956579C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oEnvironment" x="1856" y="1088" name="inst_4582246E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oEnvironment" x="1344" y="1120" name="inst_8CD0BB52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -71,6 +68,7 @@
     <instance objName="oChoose" x="958" y="131" name="inst_0DD37BF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMouse" x="160" y="192" name="inst_9040B1BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMenuMenu" x="1312" y="800" name="inst_05C4D084" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oEndless" x="928" y="896" name="inst_AED7ED5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
