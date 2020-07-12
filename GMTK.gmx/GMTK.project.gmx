@@ -42,6 +42,7 @@
     <sprite>sprites\sPlayer3</sprite>
     <sprites name="subtitles">
       <sprite>sprites\sMenu</sprite>
+      <sprite>sprites\sGoalText</sprite>
       <sprite>sprites\sScore</sprite>
       <sprite>sprites\sGoal</sprite>
       <sprite>sprites\sDif</sprite>
@@ -93,6 +94,7 @@
       <object>objects\oChoose</object>
       <object>objects\oEndless</object>
       <object>objects\oGameExit</object>
+      <object>objects\oGoaltext</object>
     </objects>
     <object>objects\oTree</object>
     <object>objects\oBandit</object>
@@ -128,10 +130,10 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>
+    <room>rooms\Goal_</room>
     <room>rooms\difficultyRoom</room>
     <room>rooms\Binds</room>
     <room>rooms\lvl1</room>
-    <room>rooms\lvl5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

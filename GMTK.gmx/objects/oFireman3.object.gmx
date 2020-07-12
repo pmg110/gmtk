@@ -133,7 +133,7 @@ if(keyboard_check(ord("D"))){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite_ext(sPlayer1,0,x,y,1,1,playerAngle,c_white,1)
+            <string>draw_sprite_ext(sPlayer3,0,x,y,1,1,playerAngle,c_white,1)
 </string>
           </argument>
         </arguments>
