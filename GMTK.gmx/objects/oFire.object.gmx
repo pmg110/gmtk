@@ -29,7 +29,7 @@
 if(place_meeting(x,y,oWater)){
     instance_destroy();
 }
- if place_meeting(x,y,oWall){
+ if place_meeting(x,y,oWall) or place_meeting(x,y,oWallHori){
  instance_destroy()
  }
 randomN = random(600 + global.difficulty)

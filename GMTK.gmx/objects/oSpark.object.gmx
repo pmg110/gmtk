@@ -59,7 +59,7 @@ if(instance_number(oFire)&lt;1000){
 instance_destroy();
 }
 
-if (TTL=0 or place_meeting(x,y,oWall)){
+if (TTL=0 or place_meeting(x,y,oWall)or place_meeting(x,y,oWallHori)){
     instance_destroy()
 }
 </string>
