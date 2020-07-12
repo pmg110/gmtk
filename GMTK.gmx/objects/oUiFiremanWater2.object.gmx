@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite_ext(sUiFiremanWater1,1,x,y,1, 7.71 * water/100,0,c_white,1)
+            <string>draw_sprite_ext(sUiFiremanWater1,1,x,y,1,water/100,0,c_white,1)
 </string>
           </argument>
         </arguments>

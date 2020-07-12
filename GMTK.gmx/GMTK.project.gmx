@@ -38,6 +38,12 @@
     <sprite>sprites\SFireman2</sprite>
     <sprite>sprites\sBurnedTree</sprite>
     <sprite>sprites\sKeep5TreesAlive</sprite>
+    <sprite>sprites\sEasy</sprite>
+    <sprite>sprites\sMedium</sprite>
+    <sprite>sprites\sHard</sprite>
+    <sprite>sprites\sDifMark</sprite>
+    <sprite>sprites\sChooseDif</sprite>
+    <sprite>sprites\sWinTime</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -83,9 +89,16 @@
     <object>objects\oSpark</object>
     <object>objects\oBurnedTree</object>
     <object>objects\oKeep5TreesAlive</object>
+    <object>objects\oDifMark</object>
+    <object>objects\oEasy</object>
+    <object>objects\oMedium</object>
+    <object>objects\oHard</object>
+    <object>objects\oChoose</object>
+    <object>objects\oGameExit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>
+    <room>rooms\difficultyRoom</room>
     <room>rooms\lvl1</room>
     <room>rooms\lvl5</room>
   </rooms>

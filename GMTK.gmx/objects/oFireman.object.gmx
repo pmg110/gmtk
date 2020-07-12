@@ -79,7 +79,7 @@ if(keyboard_check(ord("A"))){
 }else{
     motion_set(direction,0)
     if(oUiFiremanWater1.water&lt;100){
-    oUiFiremanWater1.water+=0.5
+    oUiFiremanWater1.water+=1
     }
 
 }}
