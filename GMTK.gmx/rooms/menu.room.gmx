@@ -62,10 +62,10 @@
     <instance objName="oEnvironment" x="1856" y="1088" name="inst_4582246E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oEnvironment" x="1344" y="1120" name="inst_8CD0BB52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oEnvironment" x="64" y="1120" name="inst_3829E76F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMenuDif" x="960" y="416" name="inst_9D9A3254" locked="0" code="" scaleX="2.09999990463257" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="oMenuBinds" x="1536" y="800" name="inst_7B6206FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oOverlord" x="32" y="0" name="inst_D095A67A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oGameExit" x="1760" y="800" name="inst_30F62ED6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oMenuDif" x="960" y="416" name="inst_7C4A6971" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

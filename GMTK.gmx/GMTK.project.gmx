@@ -45,6 +45,7 @@
     <sprite>sprites\sEasy</sprite>
     <sprite>sprites\sMedium</sprite>
     <sprite>sprites\sHard</sprite>
+    <sprite>sprites\sEndless</sprite>
     <sprite>sprites\sDifMark</sprite>
     <sprite>sprites\sChooseDif</sprite>
     <sprite>sprites\sWinTime</sprite>

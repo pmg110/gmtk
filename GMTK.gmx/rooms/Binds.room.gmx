@@ -68,7 +68,6 @@
     <instance objName="uiFireman2bind" x="512" y="288" name="inst_8EB0BB55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="uiFireman3bind" x="864" y="288" name="inst_1403721B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMenuMenu" x="1536" y="800" name="inst_7E44BBA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMenuDif" x="1280" y="800" name="inst_86EB1F26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
